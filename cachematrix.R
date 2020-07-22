@@ -1,8 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
-
+##set the value of the matrix
+##get the value of the matrix
+##set the value of the mean
+##get the value of the mean
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
@@ -20,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+##gets the inverse of the special matrix created by the above function
 
   cacheSolve <- function(x, ...) {
     invr <= x$getinverse()
